@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+
+    <link rel="stylesheet" href="./resume.css">
+</head>
+<body>
+    <div class="section1">
+        <img src="./images/resumepic.jfif" alt="">
+        <h1>I'm Chris</h1>
+        <p class="section1text">I am self-motivated, resourceful, and progress-driven, with a background in IT. I have a passion for web devleopment and love improving on my skills.</p>
+    </div>
+
+    <div class="section2">
+        <div class="dropbtn" onclick="toggleDropdown()">
+            <div style="height: 35px; width: 35px; background: linear-gradient(rgb(177, 176, 176), rgb(124, 124, 124), rgb(51, 51, 51)); border-radius: 5px;">
+                <img class="icons dropbtn" src="./images/laptop.svg" alt="" style="height: 25px; padding-top: 5px; padding-left: 2.5px;">
+            </div>
+
+            <h3 class="dropbtn">Skills</h3>
+
+            <div class="dropdown-content" id="myDropdown">
+                <li>Web Devleopment</li>
+                <br>
+                <li>HTML, CSS, JavaScript</li>
+                <br>
+                <li>Configuring DHCP and Static IP Addresses</li>
+                <br>               
+                <li>Active Directory Management</li>
+                <br>
+                <li>Microsoft O365 Administration</li>
+                <br>
+                <li>Machine Naming,Workgroup & Domain Joining</li>
+                <br>
+                <li>Windows Operating System</li>
+            </div>
+        </div>
+
+        <div class="dropbtn" onclick="toggleDropdown()">
+            <div style="height: 35px; width: 35px; background: linear-gradient(rgb(177, 176, 176), rgb(124, 124, 124), rgb(51, 51, 51)); border-radius: 5px;">
+                <img class="icons dropbtn" src="./images/mortarboard.svg" alt="" style="height: 25px; padding-top: 5px; padding-left: 2.5px;">
+            </div>
+            <h3 class="dropbtn">Education</h3>
+            <div class="dropdown-content">
+                    <li>
+                        MSc Information Technology (Merit), Bournemouth University - Bournemouth 11/2021
+                    </li>
+                    <br>
+                    <li>
+                        BSc Civil Engineering (2:1) Kwame Nkrumah University of Science and Technology - Ghana 10/2017
+                    </li>
+            </div>
+        </div>
+
+        <div class="dropbtn" onclick="toggleDropdown()">
+            <div style="height: 35px; width: 35px; background: linear-gradient(rgb(177, 176, 176), rgb(124, 124, 124), rgb(51, 51, 51)); border-radius: 5px;">
+                <img class="icons dropbtn" src="./images/person-workspace.svg" alt="" style="height: 25px; padding-top: 5px; padding-left: 2.5px;">
+            </div>
+            <h3 class="dropbtn">Work experience</h3>
+            <div class="dropdown-content">
+                <ul>
+                <li>IT Service Desk Technician, Trusted Technology Partnership, Ringwood</li>
+                <br>
+                <li>Customer Service Representative, LINK group, Bournemouth</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h2 style="text-align: center;">Projects</h2>
+        <div class="section2a">
+            <a href="https://chrvs97.github.io/Wave/"><img class="img1" src="./images/waveculture.jpeg" alt=""></a>
+        </div>
+    </div>
+
+    <div class="section3">
+        <h2>Professional summary</h2>
+        <p>Information Technology Post-Graduate, quick to learn, highly efficient in undertaking various administrative and analytic tasks. Motivated to achieve outstanding success through communication and a forward approach, focused on customer service and product development.</p>
+        
+        <form action="mailto:uche.nwimo@yahoo.com" method="post"><input type="submit" value="Contact Me"></form>
+    </div>
+
+
+
+<script src="./index.js"></script>
+</body>
+
+<footer class="section4">
+    <a href="https://www.linkedin.com/in/christopher-nwimo-256b23210/">LinkedIn</a>
+    <hr>
+    <p>© 2023 Christopher Nwimo, Inc</p>
+</footer>
+</html>
