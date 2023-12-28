@@ -1,8 +1,3 @@
-document.querySelector(".img1").addEventListener("click", function(){
-    alert("USE BACK TO RETURN TO FIRST PAGE!")
-})
-
-
 function toggleDropdown(){
 
     var dropdown = document.querySelectorAll(".dropdown-content")[0];
