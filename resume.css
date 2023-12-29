@@ -47,6 +47,16 @@ body{
     align-items: center;
 }
 
+.section2Contents .iconBackground{
+    height: 105px;
+    width: 105px;
+}
+
+.section2Contents img{
+    height: 100px;
+    width: 100px;
+}
+
 .dropbtn:hover{
     cursor: pointer;
 }
@@ -59,17 +69,6 @@ body{
 
 .dropdown-content li:hover {
     background-color: whitesmoke;
-}
-
-
-.section2Contents .iconBackground{
-    height: 105px;
-    width: 105px;
-}
-
-.section2Contents img{
-    height: 100px;
-    width: 100px;
 }
 
 .section2a{
